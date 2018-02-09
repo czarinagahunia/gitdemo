@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab 1</title>
+  </head>
+  <body>
+  <h1>Lab 1 - Login Page</h1>
+  <form action="#" method="post" id="userAuth" name="user_auth">
+    <fieldset>
+      <legend>User Authentication</legend>
+      <!-- USERNAME -->
+      <div><label for="user_Name">Username: </label>
+      <input type="text" id="user_Name" name="loginform__input_email" /></div>
+      
+      <!-- PASSWORD -->
+      <div><label for="user_Pass">Password: </label>
+      <input type="password" id="user_Pass" name="loginform__input_password" /></div>
+      
+      <!-- SUBMIT BTN -->
+      <div><input type="submit" value="Login" name="loginform__btn_submit"></div>
+    </fieldset>
+  </form>
+  <div id="user__login_hidden">
+    <p id="username__id_hidden"></p>
+    <p id="userpass__id_hidden"></p>
+  </div>
+  
+  <script src="lab1.js"></script>
+  </body>
+</html>
